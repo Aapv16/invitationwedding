@@ -1,0 +1,46 @@
+.audio-icon-wrapper {
+  /* background-color: aqua; */
+  z-index: 9999;
+  width: 4rem;
+  height: 4rem;
+  font-size: 2rem;
+  position: fixed;
+  /* bottom: 6rem; */
+  color: rgb(255, 255, 255);
+  opacity: 0.5;
+  right: -0.3rem;
+  transform-origin: center;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+  transition: ease-in-out 0.5s;
+  /* mix-blend-mode: difference; */
+}
+
+.rotating {
+  animation: rotating 4s linear infinite;
+  color: rgb(255, 238, 0);
+  transition: ease-in-out 0.5s;
+}
+@keyframes rotating {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+.audio-icon-wraper {
+  display: none;
+}
+
+@media (max-width: 1050px) {
+}
+
+@media (max-width: 750px) {
+  .audio-icon-wrapper {
+    right: 1rem;
+  }
+}

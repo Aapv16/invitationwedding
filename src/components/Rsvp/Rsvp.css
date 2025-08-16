@@ -1,0 +1,83 @@
+.rsvp {
+  padding-top: 10rem;
+  padding-bottom: 8rem;
+  background-color: #424242;
+}
+
+.rsvp h2 {
+  color: white;
+  font-family: "Playwrite HU", cursive;
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+.rsvp p {
+  /* font-family: "Playwrite HU", cursive; */
+  font-size: 1rem;
+  font-weight: 200;
+  color: white;
+}
+
+.rsvp label {
+  color: white;
+}
+
+.rsvp button {
+  background-color: var(--yellow);
+  color: white;
+  border: 0px solid var(--yellow);
+}
+
+.rsvp button {
+  background-color: white;
+  color: var(--yellow);
+}
+
+/* start-responsive */
+@media (max-width: 1200px) {
+  .rsvp h2 {
+    font-family: "Playwrite HU", cursive;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 992px) {
+  .rsvp {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    background-color: var(--bg);
+  }
+  .rsvp form {
+    border: 1px solid white;
+    border-radius: 10px;
+    max-width: 80%;
+    justify-content: center;
+    margin: 3rem auto;
+    margin-top: 1rem;
+    padding: 1rem;
+  }
+  .heart {
+    display: none;
+  }
+}
+@media (max-width: 720px) {
+  .info {
+    padding-top: 2rem;
+  }
+  .info h2 {
+    font-family: "Playwrite HU", cursive;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .info p {
+    font-size: 12px;
+  }
+  .info p {
+    /* background-color: aqua; */
+    /* text-align: justify; */
+    margin-left: 0.2rem;
+    font-size: 14px;
+  }
+}
+/* start-responsive */

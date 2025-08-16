@@ -1,0 +1,85 @@
+.navbar-brand {
+  font-family: "Playwrite HU", cursive;
+  font-size: 1.2rem;
+}
+
+.my-nav {
+  mix-blend-mode: difference;
+}
+
+.my-navbar .offcanvas .offcanvas-header h5 {
+  font-family: "Playwrite HU", cursive;
+  font-size: 1.2rem;
+}
+
+.my-navbar {
+  /* background-color: rgba(255, 255, 255, 0.411) !important; */
+}
+
+.my-nav .my-navbar-nav a {
+  color: rgba(45, 45, 45, 0.784);
+  /* margin-top: -1rem; */
+  /* background-color: rgb(255, 255, 254); */
+  /* border-bottom: 1px solid #000000; */
+  /* height: 3rem; */
+}
+.my-nav .my-navbar-nav .active {
+  color: rgb(0, 0, 0);
+  margin-top: -1rem;
+  /* background-color: rgb(255, 255, 254); */
+  border-bottom: 2px solid #0a0a0a;
+  border-radius: 1px;
+  /* height: 3rem; */
+}
+
+@media (max-width: 1050px) {
+  .hero h4 {
+    font-size: 0.8rem;
+  }
+  .hero h1 {
+    max-width: auto;
+    font-size: 2rem;
+    justify-content: center;
+  }
+  .hero p {
+    font-size: 0.8rem;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 750px) {
+  .my-navbar .offcanvas-body {
+    min-width: 45%;
+    margin-bottom: -3rem !important;
+  }
+  .my-navbar-nav {
+    padding: -15rem;
+  }
+
+  .my-navbar .offcanvas-body a {
+    font-size: 0.2rem;
+    min-width: 5%;
+    margin-top: -1rem;
+  }
+  .my-navbar .offcanvas-body a span {
+    max-width: auto;
+    margin-top: 0.3rem;
+    font-size: 0.5rem;
+    justify-content: center;
+  }
+  .my-navbar .offcanvas-body i {
+    font-size: 16px;
+  }
+  .my-navbar .offcanvas-body p {
+    font-size: 14px;
+    /* background-color: aqua; */
+  }
+  .my-navbar .offcanvas-body .my-navbar a span {
+    font-size: 0.2rem;
+    justify-content: center;
+  }
+
+  .my-navbar-nav {
+    height: 3rem;
+  }
+}

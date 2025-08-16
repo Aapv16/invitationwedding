@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/", // ganti dengan nama repo kamu
+  base: "/invitationwedding/", // ganti dengan nama repo kamu
   server: {
     port: 3000,
   },
